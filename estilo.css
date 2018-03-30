@@ -1,0 +1,16 @@
+.content {
+	height: 100%;
+	width: 840px;
+	background-color: #ffaaaa;
+}
+
+.linha {
+	padding: 15px;
+	border: solid #000 1px ;
+}
+
+.linha img {
+	height: 100px;
+	margin: 15px;
+
+}
