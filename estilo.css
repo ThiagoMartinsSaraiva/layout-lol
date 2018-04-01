@@ -2,15 +2,49 @@
 	height: 100%;
 	width: 840px;
 	background-color: #ffaaaa;
+	margin: 0 19%;
+}
+
+.texto {
+	z-index: 0;
 }
 
 .linha {
 	padding: 15px;
 	border: solid #000 1px ;
+	z-index: 2;
 }
 
 .linha img {
+	z-index: 1;
+	position: relative;
 	height: 100px;
 	margin: 15px;
+	border-radius: 0%;
+	transition-property: all;
+	transition-duration: .7s;
+	transition-delay: 0;
+	transition-timing-function: 5s;
+}
 
+.linha img:hover {
+	border-radius: 50%;
+	z-index: 0;
+	opacity: .7;
+}
+
+.alinhador {
+	display: inline-block;
+}
+
+h2 {
+	display: inline-block;
+	position: fixed;
+	z-index: 1;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px black;
+	font-family: cursive;
+	font-size: 12px;
+	padding: 50px 40px;
 }
