@@ -29,8 +29,8 @@
 
 .linha img:hover {
 	border-radius: 50%;
-	z-index: 0;
 	opacity: .7;
+	box-shadow: 0px 0px 1px 4px red;
 }
 
 .alinhador {
